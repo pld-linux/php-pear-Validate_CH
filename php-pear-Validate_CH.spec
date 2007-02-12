@@ -5,7 +5,7 @@
 %define		_pearname	Validate_CH
 
 Summary:	%{_pearname} - Validation class for CH
-Summary(pl.UTF-8):   %{_pearname} - Klasa sprawdzająca poprawność dla Szwajcarii
+Summary(pl.UTF-8):	%{_pearname} - Klasa sprawdzająca poprawność dla Szwajcarii
 Name:		php-pear-%{_pearname}
 Version:	0.5.1
 Release:	1
@@ -42,7 +42,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
