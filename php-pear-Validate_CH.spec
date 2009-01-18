@@ -7,13 +7,13 @@
 Summary:	%{_pearname} - Validation class for CH
 Summary(pl.UTF-8):	%{_pearname} - Klasa sprawdzająca poprawność dla Szwajcarii
 Name:		php-pear-%{_pearname}
-Version:	0.5.1
-Release:	2
+Version:	0.6.0
+Release:	1
 Epoch:		0
 License:	New BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	cd25d92638dd72e70bc21aaa26c29006
+# Source0-md5:	c8aa959cab643d8e55798f604f01928f
 URL:		http://pear.php.net/package/Validate_CH/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
