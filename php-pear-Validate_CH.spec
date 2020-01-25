@@ -1,6 +1,5 @@
 %define		_status		alpha
 %define		_pearname	Validate_CH
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - Validation class for CH
 Summary(pl.UTF-8):	%{_pearname} - Klasa sprawdzająca poprawność dla Szwajcarii
 Name:		php-pear-%{_pearname}
